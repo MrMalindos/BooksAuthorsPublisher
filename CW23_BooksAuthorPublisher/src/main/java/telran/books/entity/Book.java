@@ -23,7 +23,7 @@ public class Book implements Serializable {
 	public Book() {
 	}
 
-	public Book(long isbn, String title, Set<Author> authors, Publisher publisherr) {
+	public Book(long isbn, String title, Set<Author> authors, Publisher publisher) {
 		this.isbn = isbn;
 		this.title = title;
 		this.authors = authors;
